@@ -1,0 +1,20 @@
+datasets
+sentence-transformers
+faiss-cpu
+transformers==4.46.3
+huggingface_hub==0.26.2
+tokenizers==0.20.3
+sentencepiece
+accelerate
+keybert
+spacy
+nltk
+torch
+torchvision
+torchaudio
+pandas
+numpy
+tqdm
+
+# After installing, download the spaCy model:
+#   python -m spacy download en_core_web_sm

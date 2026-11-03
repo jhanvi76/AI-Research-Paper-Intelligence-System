@@ -86,7 +86,7 @@ system.explain(results)
 
 ## Run the notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhanvikhanna/ai-research-paper-system/blob/main/Jhanvi_AI_Agent_Research_Paper_System_100k.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhanvikhanna/ai-research-paper-system/blob/main/Jhanvi_AI_Agent_Research_Paper_system_100k.ipynb)
 
 If the notebook doesn't preview on GitHub, click the badge above to open it in Google Colab.
 

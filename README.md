@@ -84,6 +84,14 @@ system.explain(results)
 - **Why a curated ML vocabulary matcher on top of spaCy NER?** General-purpose spaCy models (`en_core_web_sm`) are trained on newswire text and don't recognize domain terms like "PyTorch" as a framework or "BERT" as an algorithm — the hybrid approach (general NER + a `PhraseMatcher` over categorized ML vocabulary) is the standard practical workaround when no off-the-shelf model covers a specialized technical domain.
 - **Why separate `build()` and `load()`?** Embedding 100K+ papers is the expensive step. `build()` runs it once and persists the FAISS index + metadata to disk; `load()` reuses them on subsequent runs.
 
+## Run the notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhanvikhanna/ai-research-paper-system/blob/main/Jhanvi_AI_Agent_Research_Paper_System_100k.ipynb)
+
+If the notebook doesn't preview on GitHub, click the badge above to open it in Google Colab.
+
+Note: use a T4 GPU runtime (Runtime → Change runtime type) for the full 100k+ paper build.
+
 ## Possible extensions
 
 - Swap `all-MiniLM-L6-v2` for a paper-specific embedding model (e.g. SPECTER) for stronger domain semantics
